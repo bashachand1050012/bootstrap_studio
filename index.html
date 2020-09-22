@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>SPay</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;700&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/material-icons.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
+    <link rel="stylesheet" href="assets/css/profile.css">
+    <link rel="stylesheet" href="assets/css/search-bar.css">
+    <link rel="stylesheet" href="assets/css/Sidebar-Menu-1.css">
+    <link rel="stylesheet" href="assets/css/Sidebar-Menu.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body style="font-family: 'Open Sans', sans-serif;background: #e5ecef;">
+    <div id="wrapper" style="font-family: 'Open Sans', sans-serif;">
+        <div id="sidebar-wrapper" style="background: #303539;">
+            <ul class="d-flex d-lg-flex flex-column justify-content-lg-center sidebar-nav" style="width: 90px;">
+                <li class="sidebar-brand">
+                    <a href="#">
+                        <div class="d-xl-flex justify-content-xl-center" style="background: #40a9ff;padding-top: 6px;padding-bottom: 7px;margin-left: -12px;"><img class="elevation-2" src="assets/img/SDocs-1024.svg" style="width: 55px;"></div>
+                    </a>
+                </li>
+                <li style="font-size: 14px;margin-top: 2em;"><a class="d-flex flex-column" href="#" style="line-height: 28px;padding: 12px;font-size: 12px;padding-bottom: 10px;padding-top: 10px;"><i class="material-icons" style="font-size: 18px;">mail</i>Inbox</a> </li>
+                <li style="font-size: 14px;"><a class="d-flex flex-column" href="#" style="line-height: 28px;padding: 12px;font-size: 12px;padding-top: 10px;padding-bottom: 10px;"><i class="material-icons" style="font-size: 18px;">local_activity</i>Requests</a> </li>
+                <li style="font-size: 14px;"><a class="d-flex flex-column" href="#" style="line-height: 28px;padding: 12px;font-size: 12px;padding-top: 10px;padding-bottom: 10px;"><i class="material-icons" style="font-size: 18px;">insert_drive_file</i>Reports</a> </li>
+                <li style="font-size: 14px;"><a class="d-flex flex-column" href="#" style="line-height: 28px;padding: 12px;font-size: 12px;padding-top: 10px;padding-bottom: 10px;"><i class="fa fa-server" style="font-size: 18px;"></i>Admin</a> </li>
+            </ul>
+        </div>
+        <div class="page-content-wrapper">
+            <div class="container-fluid">
+                <div class="row" style="background: #40a9ff;padding-bottom: 12px;padding-top: 12px;/*position: sticky;*/">
+                    <div class="col">
+                        <div class="d-flex justify-content-between align-items-xl-center"><a class="btn no-glow" role="button" id="menu-toggle" href="#menu-toggle" style="color: #e4ebee;"><i class="fa fa-bars"></i></a>
+                            <h5 class="text-uppercase" style="margin-bottom: 0;color: rgb(255,255,255);letter-spacing: 1px;padding-left: 5%;width: auto;">Smart Payables</h5>
+                            <div class="d-flex align-items-xl-center">
+                                <div class="dropdown" style="padding-right: 4px;"><button class="btn btn-primary dropdown-toggle no-glow" data-toggle="dropdown" aria-expanded="false" type="button" style="color: #ffffff;background-color: rgba(0,123,255,0);border-color: rgba(0,129,184,0);font-family: 'Open Sans', sans-serif;font-size: 14px;">User name</button>
+                                    <div
+                                        class="dropdown-menu material-dropmenu" style="margin-top: -6px;"><a class="dropdown-item cyan-hover" href="#">View Profile</a><a class="dropdown-item cyan-hover" href="#">Preferences</a><a class="dropdown-item cyan-hover" href="#">Logout</a></div>
+                            </div><img src="assets/img/avatar.png" style="width: 40px;height: 40px;"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row d-xl-flex align-items-xl-center" style="height: 40px;background: #ffffff;">
+                <div class="col">
+                    <div><span class="d-xl-flex align-items-xl-center" style="font-size: 13px;"><i class="material-icons" style="padding-right: 6px;">arrow_back</i>Non-PO Invoices<span style="font-size: 20px;border-left: 1px solid rgba(55,58,60,0.36);padding-left: 4px;margin-left: 10px;">27</span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="height: 85vh;overflow-y: auto;">
+                <div class="clearfix"></div>
+                <div class="col-4" style="padding-left: 8px;padding-right: 8px;padding-top: 12px;">
+                    <div class="elevation-1" style="background-color: rgba(255,255,255,0.7);height: 85vh;border: 1px solid #d9d9d9;border-radius: 6px;">
+                        <div>
+                            <ul class="nav nav-pills" role="tablist" style="font-size: 13px;font-family: Muli, sans-serif;box-shadow: 0px 1px 1px rgba(33,37,41,0.11);border-color: rgba(55,58,60,0);background: #fffefe;border-top-left-radius: 6px;border-top-right-radius: 6px;">
+                                <li class="nav-item" role="presentation" style="width: 50%;border-color: rgba(55,58,60,0);"><a class="nav-link active text-center line-tab" role="tab" data-toggle="pill" href="#tab-1" style="border-color: rgba(73,80,87,0);border-top-left-radius: 6px;"><i class="far fa-envelope" style="font-size: 14px;padding-right: 6px;"></i>Inbox Items</a></li>
+                                <li
+                                    class="nav-item" role="presentation" style="width: 50%;border-color: rgba(55,58,60,0);"><a class="nav-link text-center line-tab" role="tab" data-toggle="pill" href="#tab-2" style="border-top-right-radius: 6px;"><i class="far fa-envelope-open" style="font-size: 14px;padding-right: 6px;"></i>Outbox Items</a></li>
+                            </ul>
+                            <div class="tab-content">
+                                <div class="tab-pane active" role="tabpanel" id="tab-1" style="height: auto;">
+                                    <div>
+                                        <form class="d-xl-flex" style="border-radius: 6px;border-width: 1px;border-style: none;width: 100%;padding-left: 3%;padding-right: 3%;padding-bottom: 2%;padding-top: 3%;">
+                                            <div class="form-group d-flex d-xl-flex align-items-center align-items-xl-center" style="margin-bottom: 0px;border-radius: 38px;height: 32px;width: 100%;border: 0px none rgba(2,120,170,0);background: #2780e3;"><input class="form-control no-glow" type="search" placeholder="Search for..." style="height: 32px;background-color: #ffffff;border-top-left-radius: 15px;border-bottom-left-radius: 15px;font-size: 13px;font-family: Muli, sans-serif;margin-left: -2px;border: 1px none rgba(73,80,87,0) ;border-top-style: solid;border-top-color: #40a9ff;border-bottom-style: solid;border-bottom-color: #40a9ff;border-left-style: solid;border-left-color: #40a9ff;">
+                                                <i
+                                                    class="material-icons" style="color: rgb(255,255,255);font-size: 28px;margin-right: 5px;margin-left: 5px;cursor: pointer;">search</i>
+                                            </div>
+                                        </form>
+                                        <div class="d-flex flex-row justify-content-between align-items-xl-end" style="padding-left: 10px;padding-right: 10px;padding-top: 4px;padding-bottom: 10px;">
+                                            <form class="d-flex justify-content-between align-items-xl-center" style="width: 50%;">
+                                                <div class="form-group" style="font-size: 13px;width: 45%;margin-bottom: 0;"><label style="font-size: 11px;">Rows/Page</label><select class="custom-select custom-select-sm no-glow"><option value="12" selected="">6</option><option value="13">12</option><option value="14">18</option><option value="">24</option><option value="">30</option></select></div>
+                                                <div
+                                                    class="form-group" style="font-size: 13px;width: 45%;margin-left: 6px;margin-bottom: 0;"><label style="font-size: 11px;">Page</label><select class="custom-select custom-select-sm no-glow"><option value="12" selected="">1</option><option value="13">2</option><option value="14">3</option><option value="">4</option><option value="">5</option></select></div>
+                                        </form>
+                                        <div class="d-flex d-xl-flex justify-content-xl-center align-items-xl-center" style="width: 50%;"><i class="material-icons" style="font-size: 28px;color: rgb(39,128,227);margin-right: 5px;">keyboard_arrow_left</i>
+                                            <div><span style="font-size: 11px;">Showing</span><span style="font-size: 11px;">&nbsp;1-6&nbsp;</span><span style="font-size: 11px;">&nbsp;out of&nbsp;</span><span style="font-size: 11px;">27</span></div><i class="material-icons"
+                                                style="font-size: 28px;color: rgb(39,128,227);margin-left: 5px;">keyboard_arrow_right</i></div>
+                                    </div>
+                                </div>
+                                <ul class="list-group inbox-items" style="height: 70vh;overflow-y: auto;background: #ffffff;">
+                                    <li class="list-group-item" style="background-color: rgba(255,255,255,0);">
+                                        <div>
+                                            <div class="d-flex flex-column">
+                                                <div class="d-flex justify-content-between"><span class="d-xl-flex align-items-xl-center" style="color: #2780e3;"><i class="material-icons" style="padding-right: 6px;color: #8C8C8C;">receipt</i>NPO-250000000202</span></div>
+                                                <div><span style="font-size: 12px;">Reference.no</span><span style="font-size: 12px;padding-left: 8px;color: rgba(55,58,60,0.7);">Ref-123456789</span></div>
+                                                <div><span style="font-size: 12px;">Vendor</span><span style="font-size: 12px;padding-left: 8px;color: rgba(55,58,60,0.7);">COURT JAMAICA LIMITED</span></div>
+                                                <div class="d-xl-flex justify-content-between align-items-xl-center"
+                                                    style="margin-top: 6px;"><span class="d-xl-flex align-items-xl-center" style="font-size: 12px;">Amount<span class="d-xl-flex align-items-xl-center" style="font-size: 13px;padding-left: 8px;color: rgb(55,58,60);background: rgba(196,148,62,0);padding-top: 3px;padding-bottom: 3px;padding-right: 4px;margin-left: 5px;border-radius: 4px;">5,000.00<span style="background: rgba(247,249,250,0);color: rgb(55,58,60);padding-left: 6px;">USD</span></span>
+                                                    </span><span style="font-size: 11px;">Invoice Approval - Level 1</span></div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item elevation-2" style="background: rgba(39,128,227,0.1);border-right: 3px solid rgb(64,169,255);border-left: 3px solid rgb(64,169,255);">
+                                        <div>
+                                            <div class="d-flex flex-column">
+                                                <div class="d-flex justify-content-between"><span class="d-xl-flex align-items-xl-center" style="color: #1e797e;"><i class="material-icons" style="padding-right: 6px;color: #8C8C8C;">receipt</i>NPO-250000000202</span></div>
+                                                <div><span style="font-size: 12px;">Reference.no</span><span style="font-size: 12px;padding-left: 8px;color: rgba(55,58,60,0.7);">Ref-123456789</span></div>
+                                                <div><span style="font-size: 12px;">Vendor</span><span style="font-size: 12px;padding-left: 8px;color: rgba(55,58,60,0.7);">COURT JAMAICA LIMITED</span></div>
+                                                <div class="d-xl-flex justify-content-between align-items-xl-center"
+                                                    style="margin-top: 6px;"><span class="d-xl-flex align-items-xl-center" style="font-size: 12px;">Amount<span class="d-xl-flex align-items-xl-center" style="font-size: 13px;padding-left: 8px;color: rgb(55,58,60);background: rgba(196,148,62,0);padding-top: 3px;padding-bottom: 3px;padding-right: 4px;margin-left: 5px;border-radius: 4px;">5,000.00<span style="background: rgba(247,249,250,0);color: rgb(55,58,60);padding-left: 6px;">USD</span></span>
+                                                    </span><span style="font-size: 11px;">Invoice Approval - Level 1</span></div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item" style="background-color: rgba(255,255,255,0);">
+                                        <div>
+                                            <div class="d-flex flex-column">
+                                                <div class="d-flex justify-content-between"><span class="d-xl-flex align-items-xl-center" style="color: #2780e3;"><i class="material-icons" style="padding-right: 6px;color: #8C8C8C;">receipt</i>NPO-250000000202</span></div>
+                                                <div><span style="font-size: 12px;">Reference.no</span><span style="font-size: 12px;padding-left: 8px;color: rgba(55,58,60,0.7);">Ref-123456789</span></div>
+                                                <div><span style="font-size: 12px;">Vendor</span><span style="font-size: 12px;padding-left: 8px;color: rgba(55,58,60,0.7);">COURT JAMAICA LIMITED</span></div>
+                                                <div class="d-xl-flex justify-content-between align-items-xl-center"
+                                                    style="margin-top: 6px;"><span class="d-xl-flex align-items-xl-center" style="font-size: 12px;">Amount<span class="d-xl-flex align-items-xl-center" style="font-size: 13px;padding-left: 8px;color: rgb(55,58,60);background: rgba(196,148,62,0);padding-top: 3px;padding-bottom: 3px;padding-right: 4px;margin-left: 5px;border-radius: 4px;">5,000.00<span style="background: rgba(247,249,250,0);color: rgb(55,58,60);padding-left: 6px;">USD</span></span>
+                                                    </span><span style="font-size: 11px;">Invoice Approval - Level 1</span></div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item" style="background-color: rgba(255,255,255,0);">
+                                        <div>
+                                            <div class="d-flex flex-column">
+                                                <div class="d-flex justify-content-between"><span class="d-xl-flex align-items-xl-center" style="color: #1e797e;"><i class="material-icons" style="padding-right: 6px;color: #8C8C8C;">receipt</i>NPO-250000000202</span></div>
+                                                <div><span style="font-size: 12px;">Reference.no</span><span style="font-size: 12px;padding-left: 8px;color: rgba(55,58,60,0.7);">Ref-123456789</span></div>
+                                                <div><span style="font-size: 12px;">Vendor</span><span style="font-size: 12px;padding-left: 8px;color: rgba(55,58,60,0.7);">COURT JAMAICA LIMITED</span></div>
+                                                <div class="d-xl-flex justify-content-between align-items-xl-center"
+                                                    style="margin-top: 6px;"><span class="d-xl-flex align-items-xl-center" style="font-size: 12px;">Amount<span class="d-xl-flex align-items-xl-center" style="font-size: 13px;padding-left: 8px;color: rgb(55,58,60);background: rgba(196,148,62,0);padding-top: 3px;padding-bottom: 3px;padding-right: 4px;margin-left: 5px;border-radius: 4px;">5,000.00<span style="background: rgba(247,249,250,0);color: rgb(55,58,60);padding-left: 6px;">USD</span></span>
+                                                    </span><span style="font-size: 11px;">Invoice Approval - Level 1</span></div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item" style="background-color: rgba(255,255,255,0);">
+                                        <div>
+                                            <div class="d-flex flex-column">
+                                                <div class="d-flex justify-content-between"><span class="d-xl-flex align-items-xl-center" style="color: #1e797e;"><i class="material-icons" style="padding-right: 6px;color: #8C8C8C;">receipt</i>NPO-250000000202</span></div>
+                                                <div><span style="font-size: 12px;">Reference.no</span><span style="font-size: 12px;padding-left: 8px;color: rgba(55,58,60,0.7);">Ref-123456789</span></div>
+                                                <div><span style="font-size: 12px;">Vendor</span><span style="font-size: 12px;padding-left: 8px;color: rgba(55,58,60,0.7);">COURT JAMAICA LIMITED</span></div>
+                                                <div class="d-xl-flex justify-content-between align-items-xl-center"
+                                                    style="margin-top: 6px;"><span class="d-xl-flex align-items-xl-center" style="font-size: 12px;">Amount<span class="d-xl-flex align-items-xl-center" style="font-size: 13px;padding-left: 8px;color: rgb(55,58,60);background: rgba(196,148,62,0);padding-top: 3px;padding-bottom: 3px;padding-right: 4px;margin-left: 5px;border-radius: 4px;">5,000.00<span style="background: rgba(247,249,250,0);color: rgb(55,58,60);padding-left: 6px;">USD</span></span>
+                                                    </span><span style="font-size: 11px;">Invoice Approval - Level 1</span></div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item" style="background-color: rgba(255,255,255,0);">
+                                        <div>
+                                            <div class="d-flex flex-column">
+                                                <div class="d-flex justify-content-between"><span class="d-xl-flex align-items-xl-center" style="color: #2780e3;"><i class="material-icons" style="padding-right: 6px;color: #8C8C8C;">receipt</i>NPO-250000000202</span></div>
+                                                <div><span style="font-size: 12px;">Reference.no</span><span style="font-size: 12px;padding-left: 8px;color: rgba(55,58,60,0.7);">Ref-123456789</span></div>
+                                                <div><span style="font-size: 12px;">Vendor</span><span style="font-size: 12px;padding-left: 8px;color: rgba(55,58,60,0.7);">COURT JAMAICA LIMITED</span></div>
+                                                <div class="d-xl-flex justify-content-between align-items-xl-center"
+                                                    style="margin-top: 6px;"><span class="d-xl-flex align-items-xl-center" style="font-size: 12px;">Amount<span class="d-xl-flex align-items-xl-center" style="font-size: 13px;padding-left: 8px;color: rgb(55,58,60);background: rgba(196,148,62,0);padding-top: 3px;padding-bottom: 3px;padding-right: 4px;margin-left: 5px;border-radius: 4px;">5,000.00<span style="background: rgba(247,249,250,0);color: rgb(55,58,60);padding-left: 6px;">USD</span></span>
+                                                    </span><span style="font-size: 11px;">Invoice Approval - Level 1</span></div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="tab-pane" role="tabpanel" id="tab-2"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-8" style="padding-right: 8px;padding-left: 8px;padding-top: 12px;border-color: rgba(33,37,41,0);">
+                <div class="elevation-1" style="height: 85vh;background-color: rgba(255,255,255,0);border-radius: 6px;border: 1px solid rgba(217,217,217,0);">
+                    <div class="d-flex d-xl-flex justify-content-between align-items-xl-center" style="border-top-left-radius: 6px;border-top-right-radius: 6px;padding-left: 10px;padding-right: 6px;padding-bottom: 6px;background: rgb(255,255,255);border-color: rgba(33,37,41,0);">
+                        <h6 class="d-xl-flex align-items-xl-center" style="margin-bottom: 0;font-size: 16px;color: #262626;"><i class="material-icons" style="padding-right: 6px;color: #8C8C8C;">receipt</i>Doc ID<span class="d-xl-flex align-items-xl-center" style="color: #2780e3;font-size: 13px;padding-left: 6px;font-weight: bold;">NPO-<span>250000000202<br></span></span>
+                        </h6>
+                        <div class="btn-group btn-group-sm" role="group" style="font-size: 13px;margin-top: 4px;margin-bottom: 4px;"><button class="btn d-flex align-items-xl-center my-btns no-glow" type="button" style="font-size: 13px;/*border-radius: 0;*//*border-bottom-left-radius: 0;*//*box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);*/background: rgba(0,123,255,0);color: rgb(33,37,41);border-color: rgba(33,37,41,0);"><img src="assets/img/mdi_text-box-check-outline.svg" style="margin-right: 5px;">Approve</button>
+                            <button
+                                class="btn d-flex align-items-xl-center my-btns no-glow" type="button" style="font-size: 13px;/*border-radius: 0;*//*border-bottom-left-radius: 0;*//*box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);*/background: rgba(0,123,255,0);color: rgb(33,37,41);border-color: rgba(33,37,41,0);"><img src="assets/img/mdi_text-box-check-outline%20(1).svg" style="margin-right: 5px;">Reject</button><button class="btn d-flex align-items-xl-center my-btns no-glow" type="button" style="font-size: 13px;/*border-radius: 0;*//*border-bottom-left-radius: 0;*//*box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);*/background: rgba(0,123,255,0);color: rgb(33,37,41);border-color: rgba(33,37,41,0);margin-right: 4px;"><img src="assets/img/ant-design_user-switch-outlined.svg" style="margin-right: 5px;">Collaborate</button>
+                                <button
+                                    class="btn d-flex align-items-xl-center my-btns no-glow" type="button" style="font-size: 13px;/*border-radius: 0;*//*border-bottom-left-radius: 0;*//*box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);*/background: rgba(0,123,255,0);color: rgb(33,37,41);border-color: rgba(33,37,41,0);border-left: 2.2px solid #bfbfbf ;"><img src="assets/img/mdi_adobe-acrobat.svg" style="margin-right: 5px;"><span class="d-flex flex-column align-items-xl-start">Primary<span style="line-height: 15px;">Document</span></span>
+                                    </button>
+                        </div>
+                    </div>
+                    <div style="height: 94%;background-color: #ffffff;border-style: none;border-color: rgba(217,217,217,0);border-top-style: none;border-top-color: rgba(217,217,217,0);">
+                        <div style="/*height: 95%;*//*overflow-y: scroll;*/border-color: rgba(55,58,60,0);">
+                            <ul class="nav nav-pills" role="tablist" style="font-size: 13px;border-color: rgba(33,37,41,0);background: #40a9ff;">
+                                <li class="nav-item" role="presentation" style="border-color: rgba(33,37,41,0);"><a class="nav-link active d-xl-flex align-items-xl-center custom-tab" role="tab" data-toggle="pill" href="#tab-3" style="color: rgb(255,255,255);"><i class="material-icons" style="font-size: 16px;padding-right: 4px;color: rgb(255,255,255);">info_outline</i>Details</a></li>
+                                <li
+                                    class="nav-item" role="presentation" style="border-color: rgba(33,37,41,0);"><a class="nav-link d-xl-flex align-items-xl-center custom-tab" role="tab" data-toggle="pill" href="#tab-4" style="color: rgb(255,255,255);"><i class="material-icons" style="font-size: 16px;padding-right: 4px;">attach_file</i>Attachments</a></li>
+                                    <li
+                                        class="nav-item" role="presentation"><a class="nav-link d-xl-flex align-items-xl-center custom-tab" role="tab" data-toggle="pill" href="#tab-5" style="color: rgb(255,255,255);"><i class="far fa-comments" style="font-size: 16px;padding-right: 4px;"></i>Logs</a></li>
+                            </ul>
+                            <div class="tab-content" style="/*height: 60%;*//*overflow-y: scroll;*/border-color: rgba(55,58,60,0);">
+                                <div class="tab-pane active" role="tabpanel" id="tab-3" style="/*height: 60%;*//*overflow-y: scroll;*/">
+                                    <div style="height: 530px;overflow-y: auto;padding-top: 20px;padding-left: 10px;padding-right: 10px;">
+                                        <div class="d-flex justify-content-between">
+                                            <div style="width: 55%;">
+                                                <div style="margin-bottom: 1em;"><span class="d-xl-flex align-items-xl-center" style="font-size: 12px;font-weight: bold;">Vendor</span><span style="font-size: 13px;font-weight: normal;">COURT JAMAICA LIMITED</span><span style="font-size: 13px;font-weight: bold;color: #1e797e;padding-left: 10px;">10268</span></div>
+                                                <div
+                                                    style="margin-bottom: 1em;"><span class="d-xl-flex align-items-xl-center" style="font-size: 12px;font-weight: bold;">Requestor</span><span style="font-size: 13px;font-weight: normal;">BJONES</span></div>
+                                            <div style="width: 100%;"><span class="d-xl-flex align-items-xl-center" style="font-size: 12px;font-weight: bold;">Invoice Description</span><span style="font-size: 13px;font-weight: normal;">This is a sample text regarding Invoice Description Field. If Description is lengthy then it goes to next line<br></span></div>
+                                        </div>
+                                        <div class="d-flex" style="width: 40%;">
+                                            <form style="width: 100%;">
+                                                <div class="form-group d-flex flex-column justify-content-between" style="height: 100%;">
+                                                    <div class="input-group input-group-sm">
+                                                        <div class="input-group-prepend" style="width: 43%;"><span class="input-group-text" style="width: 100%;border-top-left-radius: 4px;border-bottom-left-radius: 4px;">Invoice Date</span></div><input class="form-control no-glow" type="text" style="border-top-right-radius: 4px;border-bottom-right-radius: 4px;background: rgb(255,255,255);"
+                                                            disabled="" placeholder="Sep 9, 2020"></div>
+                                                    <div class="input-group input-group-sm">
+                                                        <div class="input-group-prepend" style="width: 43%;"><span class="input-group-text" style="width: 100%;border-top-left-radius: 4px;border-bottom-left-radius: 4px;">Reference.no</span></div><input class="form-control no-glow" type="text" style="border-top-right-radius: 4px;border-bottom-right-radius: 4px;background: rgb(255,255,255);"
+                                                            disabled="" placeholder="Ref-123456789"></div>
+                                                    <div class="input-group input-group-sm">
+                                                        <div class="input-group-prepend" style="width: 43%;"><span class="input-group-text" style="width: 100%;border-top-left-radius: 4px;border-bottom-left-radius: 4px;">Invoice category</span></div><input class="form-control no-glow" type="text" style="border-top-right-radius: 4px;border-bottom-right-radius: 4px;background: rgb(255,255,255);"
+                                                            disabled="" placeholder="Non-PO General"></div>
+                                                    <div class="input-group input-group-sm">
+                                                        <div class="input-group-prepend" style="width: 43%;"><span class="input-group-text" style="width: 100%;border-top-left-radius: 4px;border-bottom-left-radius: 4px;">Amount</span></div><input class="form-control no-glow" type="text" style="border-top-right-radius: 4px;border-bottom-right-radius: 4px;"
+                                                            value="500.00">
+                                                        <div class="input-group-append"><span class="input-group-text">USD</span></div>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <hr style="border-width: 3px;border-color: rgb(0,129,184);">
+                                    <div class="d-xl-flex justify-content-xl-end" style="margin-bottom: 6px;"><button class="btn btn-primary btn-sm elevation-1" type="button">Add Line Item</button></div>
+                                    <div style="overflow-x: auto;/*height: 40vh;*/overflow-y: auto;">
+                                        <div class="table-responsive" style="width: 150vh;">
+                                            <table class="table">
+                                                <thead>
+                                                    <tr style="font-size: 12px;color: rgba(55,58,60,0.7);">
+                                                        <th>PO Number</th>
+                                                        <th>GL Account</th>
+                                                        <th>Cost Center</th>
+                                                        <th style="width: 120px;">Credit/Debit</th>
+                                                        <th style="width: 120px;">Amount</th>
+                                                        <th style="width: 350px;">Line Item Text</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody style="font-size: 12px;">
+                                                    <tr>
+                                                        <td>
+                                                            <div class="input-group input-group-sm" style="background-color: #ffffff;"><input class="form-control" type="text" style="border-right: none;background-color: rgba(233,236,239,0);" value="1000101" disabled="">
+                                                                <div class="input-group-append"><button class="btn btn-primary d-xl-flex align-items-xl-center" type="button" style="height: 29.6px;background-color: rgba(0,123,255,0);border-style: none;border-color: rgba(73,80,87,0.23);border-top-style: solid;border-right-style: solid;border-bottom-style: solid;"><i class="material-icons" style="color: #0081b8;">search</i></button></div>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="input-group input-group-sm" style="background-color: #ffffff;"><input class="form-control" type="text" style="border-right: none;background-color: rgba(233,236,239,0);" disabled="" value="1000101">
+                                                                <div class="input-group-append"><button class="btn btn-primary d-xl-flex align-items-xl-center" type="button" style="height: 29.6px;background-color: rgba(0,123,255,0);border-style: none;border-color: rgba(73,80,87,0.23);border-top-style: solid;border-right-style: solid;border-bottom-style: solid;"><i class="material-icons" style="color: #0081b8;">search</i></button></div>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="input-group input-group-sm" style="background-color: #ffffff;"><input class="form-control" type="text" style="border-right: none;background-color: rgba(233,236,239,0);" disabled="" value="1000101">
+                                                                <div class="input-group-append"><button class="btn btn-primary d-xl-flex align-items-xl-center" type="button" style="height: 29.6px;background-color: rgba(0,123,255,0);border-style: none;border-color: rgba(73,80,87,0.23);border-top-style: solid;border-right-style: solid;border-bottom-style: solid;"><i class="material-icons" style="color: #0081b8;">search</i></button></div>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <form>
+                                                                <div class="form-group"><select class="custom-select custom-select-sm no-glow"><option value="14">Credit</option><option value="14" selected="">Debit</option></select></div>
+                                                            </form>
+                                                        </td>
+                                                        <td>
+                                                            <form>
+                                                                <div class="form-group"><input class="form-control form-control-sm no-glow" type="number" value="250.00"></div>
+                                                            </form>
+                                                        </td>
+                                                        <td>
+                                                            <form>
+                                                                <div class="form-group d-xl-flex align-items-xl-center"><textarea class="form-control form-control-sm no-glow" style="height: 29.68px;">This is a sample line item Text</textarea><i class="material-icons" style="padding-left: 12px;color: #d96556;">remove_circle_outline</i></div>
+                                                            </form>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="input-group input-group-sm" style="background-color: #ffffff;"><input class="form-control" type="text" style="border-right: none;background-color: rgba(233,236,239,0);" value="1000101" disabled="">
+                                                                <div class="input-group-append"><button class="btn btn-primary d-xl-flex align-items-xl-center" type="button" style="height: 29.6px;background-color: rgba(0,123,255,0);border-style: none;border-color: rgba(73,80,87,0.23);border-top-style: solid;border-right-style: solid;border-bottom-style: solid;"><i class="material-icons" style="color: #0081b8;">search</i></button></div>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="input-group input-group-sm" style="background-color: #ffffff;"><input class="form-control" type="text" style="border-right: none;background-color: rgba(233,236,239,0);" disabled="" value="1000101">
+                                                                <div class="input-group-append"><button class="btn btn-primary d-xl-flex align-items-xl-center" type="button" style="height: 29.6px;background-color: rgba(0,123,255,0);border-style: none;border-color: rgba(73,80,87,0.23);border-top-style: solid;border-right-style: solid;border-bottom-style: solid;"><i class="material-icons" style="color: #0081b8;">search</i></button></div>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="input-group input-group-sm" style="background-color: #ffffff;"><input class="form-control" type="text" style="border-right: none;background-color: rgba(233,236,239,0);" disabled="" value="1000101">
+                                                                <div class="input-group-append"><button class="btn btn-primary d-xl-flex align-items-xl-center" type="button" style="height: 29.6px;background-color: rgba(0,123,255,0);border-style: none;border-color: rgba(73,80,87,0.23);border-top-style: solid;border-right-style: solid;border-bottom-style: solid;"><i class="material-icons" style="color: #0081b8;">search</i></button></div>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <form>
+                                                                <div class="form-group"><select class="custom-select custom-select-sm no-glow"><option value="14">Credit</option><option value="14" selected="">Debit</option></select></div>
+                                                            </form>
+                                                        </td>
+                                                        <td>
+                                                            <form>
+                                                                <div class="form-group"><input class="form-control form-control-sm no-glow" type="number" value="250.00"></div>
+                                                            </form>
+                                                        </td>
+                                                        <td>
+                                                            <form>
+                                                                <div class="form-group d-xl-flex align-items-xl-center"><textarea class="form-control form-control-sm no-glow" style="height: 29.68px;">This is a sample line item Text</textarea><i class="material-icons" style="padding-left: 12px;color: #d96556;">remove_circle_outline</i></div>
+                                                            </form>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" role="tabpanel" id="tab-4"></div>
+                            <div class="tab-pane" role="tabpanel" id="tab-5">
+                                <section id="section-timeline" style="height: 550px;overflow-y: auto;padding-top: 20px;">
+                                    <div class="container" style="height: auto;">
+                                        <div class="row" style="height: auto;">
+                                            <div class="col-lg-12" style="height: auto;"></div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    </div><script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/Sidebar-Menu.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,17 @@
+.no-glow:active, .no-glow:focus {
+  box-shadow: none !important;
+  outline: 0px !important;
+}
+
+.elevation-2 {
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.elevation-1 {
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.line-tab.active {
+  border-bottom: 2px solid #2780e3 !important;
+}
+
